@@ -1,7 +1,8 @@
 # cv
 ## Norkina Yaroslava
 *Contacts*: diskord norikin_yaroslava; telegram @fvfngrdth; janorka2004@gmail.com
-![foto](link to photo)
+
+![Here I am](/IMG_20230624_155904.jpg)
 
 ## About me
 I am studying at ITMO University with a degree in Mobile and Network Technologies and want to become a front-end developer. I would like to learn a relevant and interesting profession, so in my free time from studying, I decided to take courses from rsschool. My goal is to become a good specialist and within six months to gain the work skills necessary for employment. At the moment, I participated in team educational projects, where I tried myself as a developer: a photo conversion site and a university job search site “ITMO-HUNTER”. I am extremely inspired by the result, but I still lack skills in website layout and design
@@ -9,15 +10,17 @@ I am studying at ITMO University with a degree in Mobile and Network Technologie
 **I have skills in working with Git, figma, photoshop, program in C++, python, html&css, use vs code and pycharm, have used Docker, Linux VM**
 
 Code example
+
 '''
 #include <algorithm>
 #include <iostream>
 #include <vector>
 using namespace std;
 
-
 bool has_cycle = false;
+'''
 
+'''
 void dfs(const int& v, const vector<vector<int>>& edges, vector<int>& colors, vector<int>& path) {
     if (has_cycle) return;
 
@@ -36,7 +39,9 @@ void dfs(const int& v, const vector<vector<int>>& edges, vector<int>& colors, ve
     colors[v] = 2;
     path.pop_back();
 }
+'''
 
+'''
 int main() {
     int n, m;
     cin >> n >> m;
@@ -74,7 +79,8 @@ int main() {
 '''
 
 ## Work experience 
-Participation in training projects and team interaction. 
+Participation in training projects and team interaction
+
 [image-to-sketch](https://github.com/KERILL-I/image-to-sketch), [itmo-hunter](https://github.com/MKYrii/programming_project.git)
 
 ### Place of study - ITMO University
