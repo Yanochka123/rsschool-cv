@@ -17,3 +17,7 @@ header {
     max-width: 1440px;
     margin: 0 auto;
 }
+text {
+    margin: 25px;
+    border: 1px solid red
+}
